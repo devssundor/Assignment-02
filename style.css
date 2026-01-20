@@ -152,20 +152,6 @@ hr {
     margin: 1rem 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main {
     background: #1A0B2E;
     margin-top: 3rem;
@@ -206,7 +192,6 @@ main {
     max-width: 75%;
     margin: 2rem auto 4rem auto;
     padding: 0 1rem;
-
 }
 
 .card-title {
@@ -221,7 +206,6 @@ main {
     font-weight: 400;
     color: #FFFFFFD1;
     line-height: 1.5;
-
 }
 
 .card {
@@ -233,12 +217,6 @@ main {
     align-items: center;
     white-space: nowrap;
 }
-
-
-
-
-
-
 
 .tech-section {
     background: #230E3D;
@@ -253,13 +231,11 @@ main {
     justify-content: space-around;
     align-content: center;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    
+    gap: 2rem;    
 }
 
 .row-card {
     grid-row: span 2;
-
 }
 
 .col-card {
@@ -279,8 +255,7 @@ main {
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 2rem;
-    font-weight: 700;
-    
+    font-weight: 700;    
 }
 
 .tech-card p {
@@ -299,18 +274,7 @@ main {
     margin-top: 1rem;
     position: relative;
     top: 1.5rem;
-
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .feature h3 {
@@ -319,8 +283,7 @@ main {
     margin-top: 1rem;
     color: #FFFFFF;
     font-size: 3rem;
-    font-weight: 800;
-    
+    font-weight: 800;    
 }
 
 .feature-cont {
@@ -345,7 +308,6 @@ main {
     border-top-right-radius: 2rem;
     width: 100%;
     aspect-ratio: 16 / 9;
-
 }
 
 .feature-card h3 {
@@ -373,25 +335,9 @@ main {
     font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .host-section {
     background: #1A0B2E;
     margin: 3rem 0;
-
 }
 
 .host-section>h2 {
@@ -429,7 +375,6 @@ main {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 2rem;
-
 }
 
 .host-icon-cont {
@@ -449,11 +394,54 @@ main {
     cursor: pointer;
 }
 
+.footer-banner {
+    background: url('./assets/footer-bg.png');
+    margin-top: 2rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
 
+.footer-logo h1 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
 
+.footer-logo .wave {
+    font-size: 3rem;
+    font-weight: 700;
+}
 
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
 
+.footer-icon-cont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
 
+.footer-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
 
+.footer-icon p {
+    color: #FFFFFFC7;
+    font-size: 1rem;
+}
 
-
+.footer-content p {
+    color: #FFFFFF99;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
