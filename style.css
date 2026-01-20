@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+body {
+    background-color: #1A0B2E;
+
+}
+.btn-gradient {
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10000px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(90deg,
+            #FFB347,
+            #FF5ACD,
+            #8A2BE2);
+    cursor: pointer;
+}
+.header {
+    background-color: #1A0B2E;
+    width: 100%;
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+}
+.hamburger-icon {
+    display: none;
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #FFFFFF33;
+    margin: 0;
+}
+
+.logo h1 {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.logo .wave,
+.footer-logo .wave {
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: linear-gradient(50deg,
+            #F7E93F,
+            #FB09B4,
+            #7B1EBE);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.menu ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.hero-section {
+    background: url('./assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mic-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.microphone {
+    position: absolute;
+
+}
+.hero-section2{
+    margin-top: 3rem;
+}
+
+.new {
+    position: absolute;
+    top: 10px;
+    right: 8rem;
+    background-color: #00FF88;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    border: none;
+    box-shadow: #00000033 0px 4px 6px -1px, #0000001a 0px 2px 4px -1px;
+}
+
+.hero-content {
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5rem;
+}
+
+.hero-content h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: #FFFFFFD7;
+}
+
+.btn-gradient2 {
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    cursor: pointer;
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    background: #1A0B2E;
+}
+
+.spotify {
+    display: inline-flex;
+    align-items: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    
+    margin: 1rem 1rem;
+}
