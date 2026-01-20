@@ -309,3 +309,66 @@ main {
 
 
 
+
+
+
+
+.feature h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 800;
+    
+}
+
+.feature-cont {
+    display: grid;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;    
+}
+
+.feature-card {
+    border: none;
+    background: #230E3D;
+    align-content: center;
+    border-radius: 2.5rem;
+}
+
+.feature-card iframe {
+    border: none;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+}
+
+.feature-card h3 {
+    color: #FFFFFF;
+    text-align: start;
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.feature-card p {
+    color: #FFFFFFD1;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem;
+    text-align: start;
+    line-height: 1.5;
+}
+
+.feature .feature-cont .feature-card .time {
+    color: #00FF88;
+    margin: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
